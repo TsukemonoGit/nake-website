@@ -1,0 +1,6 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"description": "NOSTR の hexid ⇔ NIP-19 (bech32 でエンコードされたエンティティ) などを簡単に変換できるブラウザ拡張機能です。",
+	"chrome_extension": "拡張機能",
+	"firefox_addon": "アドオン"
+}
