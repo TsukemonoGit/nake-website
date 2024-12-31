@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import { github } from '$lib/icons';
 </script>
 
@@ -9,8 +8,6 @@
 		NAKE
 		<div class="flex h-full items-center gap-2 place-self-end">
 			<button class="bg-initial btn-icon btn-icon-sm p-1">{@html github}</button>
-			<LanguageSwitcher />
-
 			<LightSwitch />
 		</div>
 	</div>
