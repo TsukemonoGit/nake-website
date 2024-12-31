@@ -78,7 +78,7 @@
 	</button>
 </div>
 
-<div class="card grid grid-cols-6 gap-4 p-4">
+<div class="card mx-auto mt-2 grid max-w-[min(920px,100%)] grid-cols-6 gap-4 p-4">
 	{#each screenshots as { src, text }, i}
 		<button type="button" on:click={() => carouselThumbnail(i)}>
 			<!-- svelte-ignore a11y_img_redundant_alt -->
