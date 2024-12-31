@@ -51,10 +51,9 @@
 
 <div class="card mx-auto grid grid-cols-[auto_1fr_auto] items-center gap-4 p-4">
 	<!-- Button: Left -->
-	<button type="button" class="variant-filled btn-icon" on:click={carouselLeft}>
-		<!-- <i class="fa-solid fa-arrow-left" />👈️ -->
-		{@html arrow}
-	</button>
+	<button type="button" class="variant-soft-primary btn-icon" on:click={carouselLeft}
+		>{@html arrow}</button
+	>
 	<!-- Full Images -->
 	<div bind:this={elemCarousel} class=" flex snap-x snap-mandatory overflow-x-auto scroll-smooth">
 		{#each screenshots as { src, text, title }}
@@ -71,7 +70,7 @@
 		{/each}
 	</div>
 	<!-- Button: Right -->
-	<button type="button" class="variant-filled btn-icon rotate-180" on:click={carouselRight}>
+	<button type="button" class="variant-soft-primary btn-icon rotate-180" on:click={carouselRight}>
 		<!-- <i class="fa-solid fa-arrow-right " />👉️ -->{@html arrow}
 	</button>
 </div>
