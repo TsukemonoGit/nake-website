@@ -21,6 +21,6 @@
 		@apply sticky h-10 bg-primary-500/20 font-bold shadow-md;
 	}
 	.header-container {
-		@apply container mx-auto flex h-full w-full items-center justify-between gap-4 px-8;
+		@apply container mx-auto flex h-full w-full max-w-screen-lg items-center justify-between gap-4 px-8;
 	}
 </style>

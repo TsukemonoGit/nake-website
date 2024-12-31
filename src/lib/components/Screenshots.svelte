@@ -49,9 +49,7 @@
 	<img src="/image.png" alt="Screenshot 1" />
 </div> -->
 
-<div
-	class="card mx-auto grid max-w-[min(920px,100%)] grid-cols-[auto_1fr_auto] items-center gap-4 p-4"
->
+<div class="card mx-auto grid grid-cols-[auto_1fr_auto] items-center gap-4 p-4">
 	<!-- Button: Left -->
 	<button type="button" class="variant-filled btn-icon" on:click={carouselLeft}>
 		<!-- <i class="fa-solid fa-arrow-left" />👈️ -->
@@ -60,7 +58,7 @@
 	<!-- Full Images -->
 	<div bind:this={elemCarousel} class=" flex snap-x snap-mandatory overflow-x-auto scroll-smooth">
 		{#each screenshots as { src, text, title }}
-			<div class=" min-w-[min(920px,100%)] snap-center object-contain rounded-container-token">
+			<div class=" min-w-[min(1024px,100%)] snap-center object-contain rounded-container-token">
 				<h3 class="h3">{title}</h3>
 				<img
 					class="mx-auto snap-center object-contain rounded-container-token"
@@ -78,7 +76,7 @@
 	</button>
 </div>
 
-<div class="card mx-auto mt-2 grid max-w-[min(920px,100%)] grid-cols-6 gap-4 p-4">
+<div class="card mx-auto mt-2 grid grid-cols-6 gap-4 p-4">
 	{#each screenshots as { src, text }, i}
 		<button type="button" on:click={() => carouselThumbnail(i)}>
 			<!-- svelte-ignore a11y_img_redundant_alt -->

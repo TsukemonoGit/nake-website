@@ -7,7 +7,7 @@
 </script>
 
 <!-- {languageTag()} -->
-<div class="container mx-auto space-y-8 p-8">
+<div class="container mx-auto max-w-screen-lg space-y-8 p-8">
 	<h1 class="h1">NAKE</h1>
 	<p class="!mt-0">Nostr Army Knife Extension</p>
 	<p class="description">{m.description()}</p>
@@ -39,7 +39,7 @@
 		@apply h-8 w-8 object-contain text-primary-300;
 	}
 	.description {
-		@apply rounded-md border border-secondary-400 p-4;
+		@apply whitespace-pre-line break-words rounded-md border border-secondary-400 p-4;
 	}
 	.extension-buttons {
 		@apply m-4 flex gap-4;
