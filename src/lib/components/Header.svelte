@@ -1,11 +1,14 @@
 <script lang="ts">
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import { github } from '$lib/icons';
+	import { github, nakeIcon } from '$lib/icons';
 </script>
 
 <header>
 	<div class="header-container">
-		NAKE
+		<div class="flex items-center gap-2">
+			<div class="w-6">{@html nakeIcon}</div>
+			NAKE
+		</div>
 		<div class="flex h-full items-center gap-2 place-self-end">
 			<a
 				href="https://github.com/TsukemonoGit/nake"

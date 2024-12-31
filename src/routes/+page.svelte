@@ -1,14 +1,17 @@
 <script lang="ts">
 	//import { languageTag } from '$lib/paraglide/runtime';
 	import { _ } from 'svelte-i18n';
-	import { chrome, firefox } from '$lib/icons';
+	import { chrome, firefox, nakeIcon } from '$lib/icons';
 	import Screenshots from '$lib/components/Screenshots.svelte';
 	import { page } from '$app/state';
 </script>
 
 <!-- {languageTag()} -->
 <div class="container mx-auto max-w-screen-lg space-y-8 p-2">
-	<h1 class="h1">NAKE</h1>
+	<h1 class="h1 flex items-end gap-2">
+		<div class="w-10">{@html nakeIcon}</div>
+		NAKE
+	</h1>
 	<p class="!mt-0">Nostr Army Knife Extension</p>
 	<p class="description">{$_('description')}</p>
 	<section class="extension-buttons">

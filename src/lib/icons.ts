@@ -128,3 +128,5 @@ export const github = `<svg
 >`;
 
 export const arrow = `<svg width="24" height="24" viewBox="0 0 24 24" focusable="false" ><path fill="currentColor" d="M16.41 5.41L15 4l-8 8 8 8 1.41-1.41L9.83 12"></path></svg>`;
+
+export const nakeIcon = `<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g fill="none" stroke="#FF7375" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2s-2 1-2 2s2 1 2 2m13-7h.01M6 18h.01m14.82-9.17a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z"/><path d="M18 11.66V22a4 4 0 0 0 4-4V6"/></g></svg>`;
