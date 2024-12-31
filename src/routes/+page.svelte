@@ -4,6 +4,7 @@
 
 	import { chrome, firefox } from '$lib/icons';
 	import Screenshots from '$lib/components/Screenshots.svelte';
+	import { page } from '$app/state';
 </script>
 
 <!-- {languageTag()} -->
@@ -31,6 +32,16 @@
 	</section>
 	<section>
 		<Screenshots />
+	</section>
+	<section>
+		<nostr-share data-text="Nostr Army Knife Extension" data-url={page.url.href}
+			>{m.share()}</nostr-share
+		>
+		<script
+			src="
+		https://cdn.jsdelivr.net/npm/@konemono/nostr-share-component@0.2.0/dist/nostr-share-component.min.js
+		"
+		></script>
 	</section>
 </div>
 
