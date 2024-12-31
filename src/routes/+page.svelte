@@ -8,7 +8,7 @@
 </script>
 
 <!-- {languageTag()} -->
-<div class="container mx-auto max-w-screen-lg space-y-8 p-8">
+<div class="container mx-auto max-w-screen-lg space-y-8 p-2">
 	<h1 class="h1">NAKE</h1>
 	<p class="!mt-0">Nostr Army Knife Extension</p>
 	<p class="description">{m.description()}</p>

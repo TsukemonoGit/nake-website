@@ -18,9 +18,9 @@
 
 <style lang="postcss">
 	header {
-		@apply sticky h-10 bg-primary-500/20 font-bold shadow-md;
+		@apply sticky top-0 h-10 bg-primary-500/20 font-bold shadow-md;
 	}
 	.header-container {
-		@apply container mx-auto flex h-full w-full max-w-screen-lg items-center justify-between gap-4 px-8;
+		@apply container mx-auto flex h-full w-full max-w-screen-lg items-center justify-between gap-4 px-2;
 	}
 </style>
