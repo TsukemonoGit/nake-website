@@ -7,7 +7,12 @@
 	<div class="header-container">
 		NAKE
 		<div class="flex h-full items-center gap-2 place-self-end">
-			<button class="bg-initial btn-icon btn-icon-sm p-1">{@html github}</button>
+			<a
+				href="https://github.com/TsukemonoGit/nake"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="bg-initial btn-icon btn-icon-sm p-1">{@html github}</a
+			>
 			<LightSwitch />
 		</div>
 	</div>
