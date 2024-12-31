@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { arrow } from '$lib/icons';
-
+	import { base } from '$app/paths';
 	let elemCarousel: HTMLDivElement;
 	const screenshots = [
-		{ src: '/screenshot2.png', text: 'id → note etc.', title: 'Content Select Popup' },
-		{ src: '/screenshot1.png', text: 'number → local time', title: 'Content Select Popup' },
-		{ src: '/image.png', text: 'a tag → naddr', title: 'Extension Menu' },
-		{ src: '/screenshot3.png', text: 'nsec → ncryptsec', title: 'Extension Menu' }
+		{ src: `${base}/screenshot2.png`, text: 'id → note etc.', title: 'Content Select Popup' },
+		{ src: `${base}/screenshot1.png`, text: 'number → local time', title: 'Content Select Popup' },
+		{ src: `${base}/image.png`, text: 'a tag → naddr', title: 'Extension Menu' },
+		{ src: `${base}/screenshot3.png`, text: 'nsec → ncryptsec', title: 'Extension Menu' }
 	];
 	function carouselLeft(): void {
 		const x =
