@@ -1,7 +1,8 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"description": "This browser extension allows you to easily convert between NOSTR hex IDs and NIP-19 entities (encoded in bech32).\n\nSimply select convertible text and click the NAKE icon to view the converted result.\n\nYou can also directly enter text in the extension menu to perform the conversion.",
-	"chrome_extension": "Extensions",
-	"firefox_addon": "ADD-ONS",
-	"share": "Share on Nostr"
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "description": "This browser extension allows you to easily convert between NOSTR hex IDs and NIP-19 entities (encoded in bech32).\n\nSimply select convertible text and click the NAKE icon to view the converted result.\n\nYou can also directly enter text in the extension menu to perform the conversion.",
+  "chrome_extension": "Extensions",
+  "firefox_addon": "ADD-ONS",
+  "share": "Share on Nostr",
+  "issues": "If you have any bug reports or feature requests, please create a GitHub issue using the link below."
 }

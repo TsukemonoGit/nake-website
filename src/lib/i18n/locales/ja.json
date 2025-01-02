@@ -1,7 +1,8 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"description": "NOSTR の hex ID と NIP-19 (bech32 でエンコードされたエンティティ) を簡単に変換できるブラウザ拡張機能です。\n\n変換可能なテキストを選択して NAKE のアイコンをクリックすると、変換後の内容が表示されます。\n\nまた、拡張機能メニューから直接文字を入力して変換することも可能です。",
-	"chrome_extension": "拡張機能",
-	"firefox_addon": "アドオン",
-	"share": "Nostr で 共有"
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "description": "NOSTR の hex ID と NIP-19 (bech32 でエンコードされたエンティティ) を簡単に変換できるブラウザ拡張機能です。\n\n変換可能なテキストを選択して NAKE のアイコンをクリックすると、変換後の内容が表示されます。\n\nまた、拡張機能メニューから直接文字を入力して変換することも可能です。",
+  "chrome_extension": "拡張機能",
+  "firefox_addon": "アドオン",
+  "share": "Nostr で 共有",
+  "issues": "バグの報告や機能追加のご要望がありましたら、以下のリンクから GitHub イシューを作成してください"
 }
