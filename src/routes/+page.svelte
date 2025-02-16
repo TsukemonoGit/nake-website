@@ -54,7 +54,7 @@
 				style="display: flex; justify-content: start;"
 			>
 				<div
-					class="variant-ghost-primary btn mt-4 text-sm font-bold text-neutral-800 dark:text-neutral-100"
+					class="variant-ghost-primary btn text-sm font-bold text-neutral-800 dark:text-neutral-100"
 				>
 					<NostrIcon size={28} />{$_('share')}
 				</div>
