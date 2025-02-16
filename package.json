@@ -37,6 +37,7 @@
 	},
 	"dependencies": {
 		"@floating-ui/dom": "^1.6.12",
+		"@konemono/nostr-share-component": "^0.2.2",
 		"svelte-i18n": "^4.0.1"
 	}
 }

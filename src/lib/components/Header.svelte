@@ -23,7 +23,7 @@
 
 <style lang="postcss">
 	header {
-		@apply sticky top-0 h-10 bg-primary-500/20 font-bold shadow-md backdrop-blur;
+		@apply sticky top-0 z-10 h-10 bg-primary-500/20 font-bold shadow-md backdrop-blur;
 	}
 	.header-container {
 		@apply container mx-auto flex h-full w-full max-w-screen-lg items-center justify-between gap-4 px-2;

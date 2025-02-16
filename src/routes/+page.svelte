@@ -5,6 +5,7 @@
 	import Screenshots from '$lib/components/Screenshots.svelte';
 	import { page } from '$app/state';
 	import Issues from '$lib/components/Issues.svelte';
+	import NostrIcon from '$lib/components/NostrIcon.svelte';
 </script>
 
 <!-- {languageTag()} -->
@@ -46,14 +47,19 @@
 		<Issues />
 	</section>
 	<section>
-		<nostr-share data-text="Nostr Army Knife Extension" data-url={page.url.href}
-			>{$_('share')}</nostr-share
-		>
-		<script
-			src="
-		https://cdn.jsdelivr.net/npm/@konemono/nostr-share-component@0.2.0/dist/nostr-share-component.min.js
-		"
-		></script>
+		{#await import('@konemono/nostr-share-component') then}
+			<nostr-share
+				data-text="Nostr Army Knife Extension"
+				data-url={page.url.href}
+				style="display: flex; justify-content: start;"
+			>
+				<div
+					class="variant-ghost-primary btn mt-4 text-sm font-bold text-neutral-800 dark:text-neutral-100"
+				>
+					<NostrIcon size={28} />{$_('share')}
+				</div>
+			</nostr-share>
+		{/await}
 	</section>
 </div>
 
