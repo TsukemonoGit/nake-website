@@ -46,15 +46,15 @@
 		<h2 class="h2">Report Issues & Feedback</h2>
 		<Issues />
 	</section>
-	<section>
+	<section class="flex">
 		{#await import('@konemono/nostr-share-component') then}
 			<nostr-share
 				data-text="Nostr Army Knife Extension"
 				data-url={page.url.href}
-				style="display: flex; justify-content: start;"
+				data-style="width:fit-content"
 			>
 				<div
-					class="variant-ghost-primary btn text-sm font-bold text-neutral-800 dark:text-neutral-100"
+					class="variant-ghost-primary btn self-start text-sm font-bold text-neutral-800 dark:text-neutral-100"
 				>
 					<NostrIcon size={28} />{$_('share')}
 				</div>
