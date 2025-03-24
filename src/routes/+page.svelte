@@ -53,11 +53,7 @@
 				data-url={page.url.href}
 				data-style="width:fit-content"
 			>
-				<div
-					class="variant-ghost-primary btn self-start text-sm font-bold text-neutral-800 dark:text-neutral-100"
-				>
-					<NostrIcon size={28} />{$_('share')}
-				</div>
+				<NostrIcon size={28} />{$_('share')}
 			</nostr-share>
 		{/await}
 	</section>

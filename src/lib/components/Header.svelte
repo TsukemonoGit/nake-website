@@ -10,6 +10,14 @@
 			NAKE
 		</div>
 		<div class="flex h-full items-center gap-2 place-self-end">
+			<button
+				class="variant-ghost-primary btn btn-sm"
+				data-npub="npub1sjcvg64knxkrt6ev52rywzu9uzqakgy8ehhk8yezxmpewsthst6sw3jqcw"
+				data-naddr="naddr1qqzxucttv5pzpp9sc34tdxdvxh4jeg5xgu9ctcypmvsg0n00vwfjydkrjaqh0qh4qvzqqqru7cup3l2d"
+				data-relays="wss://relay.damus.io,wss://relay.snort.social,wss://nostr.wine,wss://relay.nostr.band"
+			>
+				Support with Zap ⚡️
+			</button>
 			<a
 				href="https://github.com/TsukemonoGit/nake"
 				target="_blank"
