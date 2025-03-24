@@ -5,3 +5,6 @@
 body {
 	background-color: rgba(var(--color-surface-200) / 1);
 }
+nostr-share::part(button) {
+	@apply variant-ghost-primary text-surface-800-100-token btn self-start text-sm font-bold;
+}
