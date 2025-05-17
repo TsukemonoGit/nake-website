@@ -1,6 +1,6 @@
 <script lang="ts">
 	//import { languageTag } from '$lib/paraglide/runtime';
-	import { _ } from 'svelte-i18n';
+	import { t as _ } from '@konemono/svelte5-i18n';
 	import { chrome, firefox, nakeIcon } from '$lib/icons';
 	import Screenshots from '$lib/components/Screenshots.svelte';
 	import { page } from '$app/state';
